@@ -1,0 +1,38 @@
+What does the program do?
+- It creates entries, shows, saves or load them on files.
+
+What user inputs does it have?
+- The choices of functionalities, file name for saving and loading, the entries.
+
+What output does it produce?
+- The entries just writen, or loaded or both.
+
+How does the program end?
+- If you choose the exit funcionality
+
+            ------------------------------------------------------------------------------------
+
+What are good candidates for classes in this program?
+- Entries, and file management.
+
+What are the primary responsibilities of each class?
+-   
+    1 - Read the user's entries and show them. 
+    2 - Save and load entries from the files.
+
+            ------------------------------------------------------------------------------------
+
+What are the behaviors this class will have in order to fulfill its responsibilities? 
+(In other words, what things should this class do?)
+
+Journal
+- Read entries that are stored, show entries, load them from a file.
+
+Entry
+- Call PromptGenerator and read an entry, store all entries not yet saved, save them to a file
+
+PromptGenerator
+- Take a prompt from somewhere (a list, a file, the web, etc...)
+
+
+
