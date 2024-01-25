@@ -1,0 +1,70 @@
+//--- Step 4 ---//
+What does the program do?
+- It hides some words from a text at random.
+
+What user inputs does it have?
+- Quit and enter.
+
+What output does it produce?
+- Quit and continue hiding words
+
+How does the program end?
+- When the words end or when the user types the word quit.
+
+//--- Step 5 ---//
+
+What are good candidates for classes in this program?
+- The words, the hiding, and the showing.
+
+What are the primary responsibilities of each class?
+- Store words in a way that it's going to be used to hide latter. Hide them. Show the whole
+scripture or what's left of it.
+
+//--- Step 6 ---//
+
+What are the behaviors this class will have in order to fulfill its 
+responsibilities? (In other words, what things should this class do?)
+ 
+1 - Scripture:
+- Store the words, store the reference, manage the hiding of the words.
+
+2 - Reference:
+- Not be hided, diferentiate one scripture from another.
+
+3 - Word:
+- Transform itself in underscores when hiding.
+
+//--- Step 7 ---//
+
+What attributes does this class need to fulfill its behaviors? 
+(In other words, what variables should this class store?) and 
+what are the data types of these member variables?
+
+1 - Scripture:
+- how many words it has, how many of them are hidden.
+
+2 - Reference:
+- book, chapter and verses.
+
+3 - Word:
+- number of letters, 
+
+//--- Step 8 ---//
+
+What constructors should each class have?
+In other words, what parameters should you pass in when 
+creating an object of that type.
+1 - Scripture:
+- Reference and maybe the list of words meantioned, or even a string with the full
+scripture apart from the reference.
+
+2 - Reference:
+- book, chapter and verses.
+
+3 - Word:
+- no idea, maybe none.
+
+What other work needs to be done to set up these objects?
+For example, does the constructor need to run code to 
+perform set up tasks, like creating lists, iterating through variables, etc.
+- Getting the lenght of the words and splitting the text to get a list of words.
