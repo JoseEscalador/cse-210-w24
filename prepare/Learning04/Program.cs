@@ -13,5 +13,17 @@ class Program
         WritingAssigment newWriting = new WritingAssigment("Mary Waters", "European History", "The Causes of World War");
         Console.WriteLine(newWriting.GetSummary());
         Console.WriteLine(newWriting.GetWritingInformation());
+        int i = 0;
+        while (i < 10) {
+            i++;
+            Console.Write("+");
+
+            Thread.Sleep(500);
+
+            Console.Write("\b \b"); // Erase the + character
+            Console.Write("-"); // Replace it with the - character
+        }
+        
+        
     }
 }
