@@ -1,0 +1,64 @@
+
+---------------------------------------- Step 4 ----------------------------------------
+
+What does the program do?
+- It helps people keep track of their goals and "reward" them. 
+
+What user inputs does it have?
+- The choice of main actions, the kind of goals and other goal-related data, like the name,
+a brief description and points given.
+
+What output does it produce?
+- It saves, loads and show their progress.
+
+How does the program end?
+- When the user choses quit.
+
+---------------------------------------- Step 5 ----------------------------------------
+What are good candidates for classes in this program?
+- Goals in general (as a parent) and the 3 kinds of goals. Also a class to keep track of 
+everything so it's easier to save, load and show.
+
+What are the primary responsibilities of each class?
+- The goals classes should take the data input and translate it into a goal ready to be tracked. The
+other one I mentioned should show, save and load them.
+
+---------------------------------------- Step 6 ----------------------------------------
+What are the behaviors this class will have in order to fulfill its responsibilities? 
+(In other words, what things should this class do?)
+- 
+
+->Goal manager should save, show and load. Also get a list of goals, also create a record.
+->Goal should be a parent and have all the commons, like name, description and points (which all have)
+->Simple Goal: the same as the parent and a unique check meant to be checked just once.
+->Eternal Goal: about the same but the check space is always empty.
+->Checklist Goal: get all the basics from parent and add a count and check from simple list, along
+with the bonus points when the number of times is reached.
+
+---------------------------------------- Step 7 ----------------------------------------
+What attributes does this class need to fulfill its behaviors? 
+(In other words, what variables should this 
+class store?). What are the data types of these member variables?
+
+-
+->Goal manager: List of goals
+->Goal(parent): name, description (both string), points worth (int)
+->Simple Goal: done or not (boolean)
+->Eternal Goal: same as parent
+->Checklist Goal: bonus poins when complete(int), tracking
+
+
+---------------------------------------- Step 8 ----------------------------------------
+What constructors should each class have?
+-
+->Goal manager: score (0)
+->Goal(parent): name, description (both string), points worth (int)
+->Simple Goal: done or not (False)
+->Eternal Goal: same as parent 
+->Checklist Goal: amount completed (0), bonus, target.
+
+What other work needs to be done to set up these objects?
+- Create a way to record the goals.
+
+
+
