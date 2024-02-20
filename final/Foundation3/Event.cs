@@ -14,6 +14,7 @@ public class Event {
     }
 
     public void StandardDetails() {
+        Console.WriteLine("\n------ Standard Details ------");
         Console.WriteLine($"Title: {_title}");
         Console.WriteLine($"Description: {_description}");
         Console.WriteLine($"\nDate and time: {_date} - {_time}");

@@ -7,6 +7,7 @@ public class Reception : Event {
     }   
 
     public void FullDetails () {
+        Console.WriteLine("\n------ Full Details ------");
         Console.WriteLine($"Type of event: Reception");
         Console.WriteLine($"\nTitle: {_title}");
         Console.WriteLine($"Description: {_description}");
@@ -14,4 +15,12 @@ public class Reception : Event {
         Console.WriteLine($"Address: {_address.GetAddress()}");
         Console.WriteLine($"\nE-mail for RSVP: {_email}");
     }
+
+    public void ShortDescription() {
+        Console.WriteLine("\n------ Short Description ------");
+        Console.WriteLine($"Type of event: Reception");
+        Console.WriteLine($"Title: {_title}");
+        Console.WriteLine($"Date: {_date}");
+    }
+
 }
