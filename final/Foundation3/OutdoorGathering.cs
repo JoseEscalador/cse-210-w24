@@ -8,11 +8,19 @@ public class OutdoorGathering : Event {
 
 
     public void FullDetails () {
+        Console.WriteLine("\n------ Full Details ------");
         Console.WriteLine($"Type of event: Outdoor Gathering");
         Console.WriteLine($"Title: {_title}");
         Console.WriteLine($"Description: {_description}");
         Console.WriteLine($"\nDate and time: {_date} - {_time}");
         Console.WriteLine($"Address: {_address.GetAddress()}");
         Console.WriteLine($"\nWeather Statement: {_weatherStatement}");
+    }
+
+    public void ShortDescription() {
+        Console.WriteLine("\n------ Short Description ------");
+        Console.WriteLine($"Type of event: Outdoor Gathering");
+        Console.WriteLine($"Title: {_title}");
+        Console.WriteLine($"Date: {_date}");
     }
 }
