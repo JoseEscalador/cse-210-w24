@@ -1,0 +1,21 @@
+Outdoor Gathering
+Title: Picnic in the Park
+Address: 1024 Forest Avenue, Anytown, Anystate, USA
+Description: A casual picnic and birdwatching session in the park.
+Date: 03/15/2024
+Time: 12:00 PM
+Weather Update: Expect sunny weather with a chance of scattered clouds.
+
+Lecture
+Title: Artificial Intelligence Lecture
+Address: 539 Camino De Los Andes, Córdoba, Córdoba, Argentina
+Description: Dive into the latest advancements in artificial intelligence and their real-world implications.
+Date: 04/10/2024
+Time: 3:30 PM
+
+Reception
+Title: Makeup Line Launch Reception
+Address: 2045 Avenida General Sampaio, Salvador, Bahia, Brazil
+Description: Join us for a reception celebrating the successful launch of our new product line.
+Date: 05/20/2024
+Time: 7:00 PM
